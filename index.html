@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <input type="text" onchange="checkEvent()" id="todo">
+        <ul>
+            <li>Go to Market</li>
+            <li>Go to Lahore</li>
+            <li>Go to Islamabad</li>
+        </ul>
+    </div>
+    <script>
+function checkEvent() {
+    let input = document.getElementById("todo").value
+    console.log(input.value)
+    
+}
+    </script>
+</body>
+</html>
